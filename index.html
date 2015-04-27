@@ -1,0 +1,121 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<style>
+#fondo{
+	background:url(imagenes/fondo1.png);
+	background-size: 100% 100%; background-repeat: no-repeat;
+	opacity: 0.8; 
+}
+</style>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<!--<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>-->
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page" data-theme="b">
+	<div data-role="header">
+		<h1><font color="#33FF00" face="Comic Sans MS, cursive" size="+4">Autobiografía</font></h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2"><font color="#CC3333" face="Comic Sans MS, cursive" size="15">Datos</font></a></li>
+            <li><a href="#page3"><font color="#00FF00" face="Comic Sans MS, cursive" size="15">Estudios</font></a></li>
+			<li><a href="#page4"><font color="#FF00FF" face="Comic Sans MS, cursive" size="15">Gustos</font></a></li>
+            <li><a href="#page5"><font color="#00FFFF" face="Comic Sans MS, cursive" size="15">Logros</font></a></li>
+            <li><a href="#page6"><font color="#9900FF" face="Comic Sans MS, cursive" size="15">mascotas</font></a></li>
+            
+		</ul>		
+	</div>
+	<div data-role="footer">
+    
+		<h4 ><font color="#FF0000" face="Comic Sans MS, cursive">Mtro. David Nieto López</font></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><font color="#FF0000" size="+3">Datos</font></h1>
+	</div>
+	<div data-role="content" id="fondo">
+    <div style="float: left" align="justify">
+    <font  face="Times New Roman, Times, serif" size="+3" color="#00FF33">Mi nombre es <font color="#990000">Alondra Marisol Guzmán Osorio </font>,tengo 16 años, naci en el municipio ceiba,el 8 de julio 
+    de 1998,mi tipo de sangre es A+ .Mis padres son: <font color="#000000">Jose Manuel Guzmán Cerón y Maria Osorio Martínez</font>. 
+    Tengo dos hermanos uno se llama Jose Manuel  y tiene 8 años y mi hermana  se llama Maricielo y tiene 10 años. soy  de Xochinanacatlan del municipio de Tlaola, hay me crie ya que tambien haya se encuntra la familia de mi papa, vivi haya por 11 años a los doce me mude  a San Miguel Acuautla por la carretera federal de Nuevo Necaxa solo por un año de allí otra ves regrese a mi lugar de crecimiento.</font>  
+    <img src="imagenes/20150131_143003-1-1.jpg" align="left" heigth="100" width="100"/>
+
+   
+    
+    </div>
+		</div>		
+	<div data-role="footer">
+		<h4><font color="#9900FF" face="Trebuchet MS, Arial, Helvetica, sans-serif">Alondra Marisol Guzmán Osorio</font></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><font color="#FF0000" size="+2">Estudios</font></h1>
+	</div>
+	<div data-role="content" id="fondo">
+    <div style="float:left" align="justify">	
+		<font face="Georgia, Times New Roman, Times, serif" size="+2" color="#00FF33">
+        Estudie dos años de <font color="#00FFFF">preescolar</font> con el mejor prefesor "mi padre" empece  mis estudios en la <font color="#00FFFF">primaria</font> "El Pensador Mexicano" y	a los doce años sali de la primaria "Hermenegildo Galeana" en San Miguel Acuautla , estudie en la <font color="#00FFFF">Telesecundaria</font> "Venustiano Carranza" los trse es años hasta finalizar y ahora me encuentro en el <font color="#00FFFF">CBTis </font>N0.86  en la carrera de "Programación" del 4° "E" pretndo terminar la prepa y de ahi eguir al <font color="#00FFFF">CFP</font> (Ciencias Forenses Perciales ) y mas adelante terminar  todos mis estudios y poder ejercerlos.</font>
+        <img src="imagenes/graduacion.jpg"" align="left" hspace="20" vspace="20" " heigth="100" width="200"/>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4><font color="#CC0099" face="Tahoma, Geneva, sans-serif">Alondra Marisol Guzmán Osorio</font></h4>
+	</div>
+	</div>
+<div data-role="page" id="page4" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><font color="#FF0000">Gustos</font></h1>
+	</div>
+	<div data-role="content" id="fondo">	
+		<div style="float:left" align="justify">
+      <font face="Verdana, Geneva, sans-serif" size="+3" color="#00FF33">  	A mi me gusta mucho el deporte , cuando se habla de Futbol y el voleibol, eso es  en deporte en comida me encanta el spaghetti , me gusta casi toda la comida, en la forma de vestir soy mas de jeans y playeras o blusas manga larga y tenis  casi no me gustan las faldas o vestidos me siento incomoda ,megusta mucho salir acorrer con mi familia, tener esas largas conversaciones hasta las 2 o 3 de la mañana, me gusta tener la confianza que tengo con mis padres , y tambien me gusta que me digan verdades auque duela, me gusta mucho estar con mi familia.</font>
+      <img src="imagenes/gustos.jpg"" align="left" hspace="20" vspace="20" " heigth="100" width="200"/>
+	</div>
+    </div>
+	<div data-role="footer">
+		<h4><font color="#CC00CC" face="Tahoma, Geneva, sans-serif">Alondra Marisol Guzmán Osorio</font></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><font color="#FF0000" size="+2">Logros</font></h1>
+	</div>
+	<div data-role="content" id="fondo">	
+	<div style="float:left" align="justify">
+   <font color="#00FF33" size="+2" face="Arial, Helvetica, sans-serif"> Mis logros tras el transcurso de mi vida hansido pocos pero los mejores claramente, mis mejores logros fue desde chiquita aprendi a caminar alos 9 meses, en la secundaria mi equipo y yo ganamos  1°lugar en  futbol y voleibol  los tres años seguidos siendo yo del cuadro titular . tambien mi mayor logro fue sacar un reconocimiento en los tres años de secundaria .</font></font>
+    	  <img src="imagenes/logros.jpg"" align="left" hspace="20" vspace="20" " heigth="200" width="500"/>
+	</div>
+    </div>
+    
+	<div data-role="footer">
+		<h4><font color="#CC0099" face="Tahoma, Geneva, sans-serif">Alondra Marisol Guzmán Osorio</font></h4>
+	</div>
+</div>
+<div data-role="page" id="page6" data-add-back-btn="true">
+	<div data-role="header">
+		<h1><font color="#FF0000" size="+2"> Mascotas</font></h1>
+	</div>
+	<div data-role="content" id="fondo">	
+		<div style="float:left" align="justify">
+      <font color="#00FF33" size="+2" face="Arial, Helvetica, sans-serif">  En el transcurso de   mi vida no he tenido mascotas amis padres no les gusta aunque megustaria, tener un conejo.</font>
+        	<img src= "imagenes/masotas.jpg" align="left" hspace="20" vspace="20" heigth="200" width="500"/>
+            </div>
+            </div>
+	<div data-role="footer">
+		<h4><font color="#CC0099" face="Tahoma, Geneva, sans-serif">Alondra Marisol Guzmán Osorio</font></h4>
+	</div>
+</div>
+</body>
+</html>
